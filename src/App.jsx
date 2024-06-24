@@ -1,7 +1,7 @@
 import { Link, Route, Routes, useNavigate } from "react-router-dom";
 import { Welcome } from "./components/Welcome";
 import { Counter } from "./components/Counter";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { ShowGithubUser } from "./components/ShowGithubUser";
 
 function App() {
